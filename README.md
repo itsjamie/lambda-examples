@@ -1,3 +1,3 @@
 # Lambda-examples
 
-Here are some examples of using AWS Lambda.
+Here is an example of using AWS Lambda with Go.
