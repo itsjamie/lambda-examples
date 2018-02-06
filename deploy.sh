@@ -19,7 +19,7 @@ aws lambda create-function \
 --function-name swapi-proxy \
 --zip-file fileb://./deploy.zip \
 --runtime go1.x \
---role arn:aws:iam::${AccountID}:role/aws-lambda-demo-role \
+--role arn:aws:iam::${AccountID}:role/demo-lambda-permissions \
 --handler main
 
 aws lambda invoke \
